@@ -1,0 +1,56 @@
+body {
+}
+
+.IBContainer {width:260px;}
+.IBitemContainer {margin:0; padding:0; width:274px;}
+.IBitem {list-style: none outside none; width:274px; text-align: center; font-size:12px;}
+
+.IBitem a {display:table-cell; text-align:center; vertical-align:middle; width:274px; height:260px;margin:0 0 0 0 !important; padding:0 0 0 0 !important; border:0px; border-spacing:0px;}
+
+.alt .IBitem a {vertical-align:top; height:auto;}
+
+.IBitem .imageCaption {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #B2B2B2;
+    clear: both;
+    font-size: 0.9em;
+    margin: 7px 0;
+    padding: 0 3px 3px 3px;
+    text-align: left;
+}
+.IBitem .imageCaption p {margin:2px 2px 2px 2px;}
+
+
+.IBthumbContainer, .IBleftBtn, .IBrightBtn {float:left;margin:0 0 0 0 !important; padding:0 0 0 0 !important; border:0px; border-spacing:0px;}
+
+.IBthumbContainer {overflow: hidden; width: 250px; height: 56px; position: relative; padding:2px;}
+
+.IBthumbs {margin:0; padding:0; float:left; position:relative;}
+
+.IBthumbs li {float:left; list-style: none outside none;margin:0 0 0 0 !important; padding:0 0 0 0 !important; border:0px; border-spacing:0px;}
+
+
+.IBthumbs li div{display:table-cell; width:55px; height:55px; text-align:center; vertical-align:middle;margin:0 0 0 0 !important; padding:0 0 0 0 !important; border:0px; border-spacing:0px;}
+
+.IBitem div.drawBorder img, .IBthumbs li div.drawBorder a img {border:0px solid #666;}
+
+.IBthumbs li div a img {border:1px solid #fff;}
+.IBthumbs li div a:hover img {border:1px solid #ccc;}
+
+.IBleftBtn a, .IBrightBtn a {width:10px; display:table-cell; text-align:center; vertical-align:middle; height:66px; cursor:pointer; background-color:#666;}
+.IBleftBtn a.noclick, .IBrightBtn a.noclick {cursor:default; background-color:#ccc;}
+
+.IBleftBtn a span, .IBrightBtn a span {display:none;}
+
+.IBrightBtn,.IBrightBtn a {}
+
+.IBscrollerPane {width:274px;}
+
+
+.IBthumbs li.selectedThumb a:hover { }
+.IBthumbs li.selectedThumb a:hover img {border:1px solid #fff; cursor:default !important;}
+.IBthumbs li.selectedThumb img
+{
+    opacity:0.3;
+    filter:alpha(opacity=30); /* For IE8 and earlier */
+}

@@ -1,0 +1,187 @@
+body {font-size:12px;}
+
+
+#container {
+    clear: both;
+    margin: 0;
+    padding: 10px 0 0;
+    width: 1030px;}
+
+	.left{float:left; width:300px;}
+
+	.right{float:right; margin-right:35px; width:412px; }
+
+	.catalog_row{clear:both; width:100%; }
+
+		.catalog, .catalogDownload {float:left; width:47%; padding:4px 2% 4px 1%; min-height:275px; margin:10px 0;}
+
+			.catalog h2, .catalogDownload h2{margin:5px 0px 5px 0px; font-size:14px;}
+
+			.catalog img, .catalogDownload img{float:left; margin:0px 4px 2px 0px; border:1px solid #ccc;}
+
+			.catalog .catImage {height:180px; float:left;}
+
+			.catalog p, .catalogDownload p{font-size:12px;}
+
+			.catalog .catalogPDF, .catalogDownload .catalogPDF, .catalog .catalogZIP, .catalogDownload .catalogZIP{display:block; text-align:right; height:27px; width:100%; clear:both;}
+
+			.catalog .catalogPDF a, .catalogDownload .catalogPDF a {display:block; width:120px; height:21px; padding-top:6px; text-align:right; background:transparent url('/sharedimages/misc/pdf-icon.gif') top left no-repeat; float:right;}
+			.catalog .catalogZIP a, .catalogDownload .catalogZIP a {display:block; width:120px; height:21px; padding-top:6px; text-align:right; background:transparent url('/sharedimages/misc/zip-icon.gif') top left no-repeat; float:right;}
+
+			.catalog_select{clear:both; width:96%; padding:2%; vertical-align:middle; background-color:#eee; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+
+			.catalog_select input {-webkit-appearance: checkbox;}
+
+			.catalogDownload .catalog_select {display:none;}
+
+				.catalog_select .checkbox{float:left; vertical-align:bottom;}
+
+	.button{width:100%; padding:4px 0px 4px 0px; text-align:center; border-top:1px solid red;}
+
+
+
+	.catreq_form{}
+
+	.chosen_catalogs{margin:0px 4px 6px 0px; width:384px; border:1px solid #999;}
+
+		.chosen_catalogs td.cover_thumb{width:50px; }
+
+		.chosen_catalogs .cat_name{text-align:left; font-size:12px; font-weight:bold;}
+
+	.contact_info{float:left; margin:0px 4px 6px 0px; border:1px solid #999;}
+
+		.chosen_catalogs thead, .contact_info thead, .job thead, .interest thead, .comment thead{background-color:#999; color:#FFF; font-size:15px; font-weight:bold;}
+
+		.chosen_catalogs thead td, .contact_info thead td, .job thead td, .interest thead td, .comment thead td, .job thead td{height:25px;}
+
+		.contact_info .label{width:30%;}
+
+		.contact_info .field{text-align:left;}
+
+
+
+	.job, .contact{float:left; margin:0px 4px 6px 0px; width:200px; height:210px; border:1px solid #999;}
+
+		.job .label, .interest .label{width:200px;}
+
+	.interest{margin:0px 4px 6px 0px; width:200px; height:210px; border:1px solid #999;}
+
+	.comment{margin:0px 4px 6px 0px; width:404px; border:1px solid #999;}
+
+	.submit{
+
+	/*	margin:0px 42px 0px 4px; */
+
+		width:402px;
+
+		padding:10px 0px 10px 0px;
+
+		voice-family: "\"}\"";
+
+  		voice-family:inherit;
+
+	/*	margin:0px 55px 0px 0px; */
+
+		width:402px;
+
+		text-align:center;
+
+		background-color:#eee;
+
+		border:1px solid #999;
+
+	}
+
+ 	.filler{float:left; margin:0px 4px 6px 0px; width:384px; height:116px; background-color:#eee; border:1px solid #999;}
+
+
+.errorMessage {text-align:center; font-weight:bold; font-size:14px; margin:4px;}
+
+
+#mailing_info td.label, #contact_info td.label {width:50px;}
+#mailing_info td.field, #contact_info td.field {width:200px;}
+
+
+
+#formganizer{width:100%;}
+#leftcol{width:384px; vertical-align:top; }
+#leftcol table tr td.label {width:124px; }
+#rightcol{vertical-align:top;}
+.section_header{background:#242894 url('/skins/pitscoIS/Default/images/ContentTableHeader_bg.gif') top left repeat-x; color:#FFF; font-size:15px; font-weight:bold}
+#cat_options{margin:2px; width:384px; border-top:1px solid #999; border-left:1px solid #999;}
+#cat_options table{width:100%;}
+#mailing_info{clear:both; margin:2px; width:384px; height:346px; border-top:1px solid #999; border-left:1px solid #999;}
+#mailing_info table{width:100%;}
+#job_description{float:left; margin:2px; width:200px; height:346px; border-top:1px solid #999; border-left:1px solid #999;}
+#job_description table{width:100%;}
+#job_description table table input {-webkit-appearance: radio;}
+#interest_areas{float:left; margin:2px; width:200px; height:346px; border-top:1px solid #999; border-left:1px solid #999;}
+#interest_areas table{width:100%;}
+#interest_areas table table input {-webkit-appearance: checkbox;}
+#contact_info{float:left; margin:2px; width:384px; height:138px; border-top:1px solid #999; border-left:1px solid #999;}
+#contact_info table{width:100%;}
+#sign-up{float:left; margin:2px; width:406px; height:138px; border-top:1px solid #999; border-left:1px solid #999;}
+#sign-up table{width:100%;}
+#quest_cmt{float:left; margin:2px; width:406px; height:130px; border-top:1px solid #999; border-left:1px solid #999;}
+#quest_cmt table{width:100%;}
+#send_request{width:92%; padding:3px 12px 3px 3px; text-align:right; border:1px solid #999; background-color:#999;}
+
+#job_description label, #interest_areas label, #sign-up label {font-weight:normal;}
+
+.otherJob, .otherSubject {margin:0 0 0 10px;}
+
+.sendName,
+.catLister .catalog h2,
+.catLister .catalog .catImage,
+.catLister .catalog .catDesc,
+.catLister .catalog .catalogPDF,
+.catLister .sendMe
+{display:none;}
+
+.catLister {margin-bottom:40px;}
+.catLister .catalog {float:none; height:18px; padding:0px; width:100%; clear:both; height:22px; min-height:unset;}
+.catLister .catalogDownload {display:none;}
+
+.catLister .catalog_select {background-color:Transparent; border-bottom:0px solid #fff; border-right:0px solid #fff; padding:0 0 0 20px;}
+
+.catLister .sendName {display:inline; font-weight:bold;}
+
+.otherSubject, .otherJob {color:Red;}
+
+
+#emailMktg {
+    width: 450px;
+}
+
+.activitysubmit a {
+    background-color: #171796;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    height: 33px;
+    margin: 10px 0 0 8px;
+    padding: 8px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 155px;
+}
+
+
+@media (max-width: 700px) {
+    .catalog, .catalogDownload {width:100%; float:none; padding:0;}
+}
+
+
+.button, .button:hover {background-color:#fff;}
+#container {width:unset;}
+
+table tbody, table tfoot, table thead {border-width:0px; background-color:transparent;}
+table tbody td, table tbody th {/*padding:2px;*/ vertical-align:middle;}
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea
+{
+    height:unset; padding:4px; margin:unset;font-size:unset; background-color:#fff; box-shadow:unset; transition:unset;
+}
+[type=checkbox], [type=file], [type=radio] {margin:0;}
+[type=checkbox]+label, [type=radio]+label {display:unset; margin-right:unset;}
+label {display:unset; line-height:unset;}
+table tbody tr:nth-child(even) {background-color:#fff;}

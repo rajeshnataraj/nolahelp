@@ -1,0 +1,46 @@
+
+/* TreeJS styling */
+
+.head-txt{
+  font-size: 1.17em;
+    color: #171796 !important;
+    font-family: Verdana,Arial,Helvetica,sans-serif !important;
+font-weight: bold;
+margin-bottom: 5px;
+min-height: 20px;
+}
+.treeview,
+.treeview ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+padding-left: 0px;
+}
+.treeview li a{
+  text-decoration: none;
+  color: #171796;
+}
+.treeview li {
+  text-indent: 1%;
+  margin-top: 0;
+  padding: 0.15em 0 0.5em 1.9em;
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+    color: #171796 !important;
+    font-family: Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    margin-left: 0 !important;
+    text-decoration: none !important;
+}
+
+.treeview li.contains-items {
+
+  background-image: url('icons/left.png');
+
+ }
+
+.treeview li.items-expanded { background-image: url('icons/down.png'); }
+
+.treeview>li:hover { cursor: pointer; }
+
+.treeview span:hover { background-color: rgba(246, 246, 246, 0.7); }
